@@ -29,7 +29,7 @@ const Signup = () => {
             return handlerError("name email and passwore must be fill")
         } 
         try{
-            // const url = 'http://localhost:8080/auth/Signup';
+            // const url = 'https://minibackend-mu.vercel.app/auth/Signup';
             const url = 'http://localhost:8080/auth/signup';
             const response = await fetch(url,{
               method:"POST",
